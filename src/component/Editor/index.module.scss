@@ -1,4 +1,25 @@
 .index:global {
-    background-color: red;
+    background-color: greenyellow;
     height: calc(100% - 100px);
+    overflow: hidden;
+    position: relative;
+    &.touched {
+        height: 100%;
+        > .deleter {
+            display: flex;
+        }
+    }
+    > .deleter {
+        display: none;
+        height: 100px;
+        background-color: white;
+        bottom: 0px;
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        &.hover {
+            background: red;
+        }
+    }
 }
