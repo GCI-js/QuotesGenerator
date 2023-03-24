@@ -2,6 +2,7 @@ import { useRef } from "react";
 import hanger from "../../service/hanger";
 import idiotproof from "../../service/idiotproof"
 import shepherd from "../../service/shepherd";
+import tapestry from "../../service/tapestry";
 
 import Sticker from "../Sticker";
 
@@ -41,6 +42,7 @@ export default function Editor(properties: Properties) {
     }
 
     return <div id={id} className={cl} ref={self}>
+        <img className="tapestry" src={tapestry.path()} alt="" />
         {hanger.poses().map((v) => <Sticker
             key={v[0]}
             pose_id={v[0]}

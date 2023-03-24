@@ -1,4 +1,5 @@
 import idiotproof from "../../service/idiotproof";
+import tapestry from "../../service/tapestry";
 import hanger from "../../service/hanger";
 
 import styles from "./index.module.scss";
@@ -28,13 +29,13 @@ export default function TemporalBoard(properties: Props) {
         <div className="ButtonText">폰트</div>
       </div>
       <div className="BottomStruct">
-        <div className="BackgroundButton">
+        <div className="BackgroundButton" onClick={() => tapestry.choose()}>
           <img src={background_img} className="ButtonImg" />
         </div>
         <div className="ButtonText">배경</div>
       </div>
       <div className="BottomStruct">
-        <div className="StickerButton" onClick={() => hanger.create("smile")}>
+        <div className="StickerButton" onClick={() => hanger.create("")}>
           <img src={sticker_img} className="ButtonImg" />
         </div>
         <div className="ButtonText">스티커</div>
