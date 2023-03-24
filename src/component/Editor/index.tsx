@@ -47,8 +47,6 @@ export default function Editor(properties: Properties) {
             info={v[1]}
             activate={activate}
             deactivate={deactivate}/>)}
-        <div className="deleter" ref={deleter_ref}>
-            deleter
-        </div>
+        <div className="deleter" ref={deleter_ref}>삭제</div>
     </div>
 }

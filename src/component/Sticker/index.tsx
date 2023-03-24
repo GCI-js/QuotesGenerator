@@ -20,13 +20,10 @@ export default function Sticker(properties: Properties_) {
     const self = useRef<HTMLDivElement>(null);
     const info = properties.info;
     const pose_id = properties.pose_id;
-    const half_w = info.w / 2;
-    const half_h = info.h / 2;
     const name = info.n;
     useEffect(() => {
         const style = self.current.style;
-        style.width = info.w + "px";
-        style.height = info.h + "px";
+        style.width = "100px";
         style.left = info.x + "px";
         style.top = info.y + "px";
         style.rotate = info.d + "deg";
@@ -34,7 +31,8 @@ export default function Sticker(properties: Properties_) {
     })
     function activate() {
         const elem = self.current
-        const style = elem.style;
+        const elem_style = elem.style;
+        const style = getComputedStyle(elem);
         const cls = elem.classList;
         if (cls.contains("hover")) return;
         cls.add("hover");
@@ -45,8 +43,8 @@ export default function Sticker(properties: Properties_) {
         elem.ontouchmove = e => {
             const x = e.touches[0].clientX;
             const y = e.touches[0].clientY;
-            style.left = x - half_w + "px";
-            style.top = y - half_h + "px";
+            elem_style.left = x - 25 - parseInt(style.width) / 2 + "px";
+            elem_style.top = y - 125 - parseInt(style.height) / 2 + "px";
         }
         document.ontouchend = () => {
             if (cls.contains("alive")) cls.remove("alive");
@@ -54,7 +52,6 @@ export default function Sticker(properties: Properties_) {
                 elem.ontouchstart = elem.ontouchmove = null;
                 cls.remove("hover")
             }
-            const style = getComputedStyle(elem);
             const x = parseInt(style.left)
             const y = parseInt(style.top)
             const w = parseInt(style.width)

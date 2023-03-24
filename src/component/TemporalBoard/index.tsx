@@ -34,7 +34,7 @@ export default function TemporalBoard(properties: Props) {
         <div className="ButtonText">배경</div>
       </div>
       <div className="BottomStruct">
-        <div className="StickerButton">
+        <div className="StickerButton" onClick={() => hanger.create("smile")}>
           <img src={sticker_img} className="ButtonImg" />
         </div>
         <div className="ButtonText">스티커</div>
