@@ -34,7 +34,6 @@ export default function Editor(properties: Properties) {
         const deleter = deleter_ref.current;
         elem.classList.remove("touched");
         if (deleter.classList.contains("hover")) {
-            document.ontouchend = null;
             hanger.remove(pose_id);
             deleter.classList.remove("hover");
         }

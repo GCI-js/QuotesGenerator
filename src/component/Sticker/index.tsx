@@ -19,6 +19,7 @@ export default function Sticker(properties: Properties_) {
     const cl = [styles.index, properties.className].join(" ");
     const self = useRef<HTMLDivElement>(null);
     const info = properties.info;
+    const pose_id = properties.pose_id;
     const half_w = info.w / 2;
     const half_h = info.h / 2;
     const name = info.n;
@@ -29,6 +30,7 @@ export default function Sticker(properties: Properties_) {
         style.left = info.x + "px";
         style.top = info.y + "px";
         style.rotate = info.d + "deg";
+        if (hanger.check(pose_id)) activate();
     })
     function activate() {
         const elem = self.current
@@ -50,7 +52,6 @@ export default function Sticker(properties: Properties_) {
             if (cls.contains("alive")) cls.remove("alive");
             else {
                 elem.ontouchstart = elem.ontouchmove = null;
-                document.ontouchend = null;
                 cls.remove("hover")
             }
             const style = getComputedStyle(elem);
@@ -59,16 +60,14 @@ export default function Sticker(properties: Properties_) {
             const w = parseInt(style.width)
             const h = parseInt(style.height)
             const d = parseInt(style.rotate)
-            properties.deactivate(properties.pose_id,
+            properties.deactivate(pose_id,
                                   {x: x, y: y, w: w, h: h, d: d, n: name});
             shepherd.chase("editor");
         }
     }
 
-    function manipulate(event: React.TouchEvent) {
-    }
     return <div id={id} className={cl} ref={self} onClick={activate}>
-        <div className="handle" onTouchStart={manipulate}></div>
+        <div className="handle"></div>
         <img className="content" src={hanger.path(name)} alt="" />
     </div>
 }

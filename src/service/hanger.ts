@@ -1,5 +1,8 @@
+import shepherd from "./shepherd";
+
 const POSES: {[key: string]: StickerInfo} = {};
 let COUNT = 0;
+let RECENT_ID = -1;
 
 namespace hanger {
     export function path(name: string) {
@@ -12,10 +15,19 @@ namespace hanger {
         POSES[id] = info;
     }
     export function create(name: string) {
-        POSES[COUNT++] = {x: 100, y: 100, w: 100, h: 100, d: 0, n: "smile"};
+        RECENT_ID = COUNT;
+        POSES[COUNT++] = {x: 100, y: 100, w: 100, h: 100, d: 0, n: name};
+        shepherd.chase("editor");
+        document.ontouchend = null;
     }
     export function remove(id: string) {
+        document.ontouchend = null;
         delete POSES[id];
+    }
+    export function check(id: string) {
+        const rslt = RECENT_ID == parseInt(id)
+        if (rslt) RECENT_ID = -1;
+        return rslt;
     }
 }
 
