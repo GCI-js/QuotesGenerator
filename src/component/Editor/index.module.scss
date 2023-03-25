@@ -1,9 +1,8 @@
 .index:global {
     margin: 150px 25px 0px 25px;
     height: calc(100% - 300px);
-    overflow: hidden;
+    overflow: visible;
     position: relative;
-    box-shadow: 0px 4px 8px black;
     display: flex;
     justify-content: center;
     &.touched > .deleter {
@@ -11,6 +10,7 @@
     }
     > .tapestry {
         height: 100%;
+        box-shadow: 0px 4px 8px black;
     }
     > .deleter {
         display: none;

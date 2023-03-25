@@ -26,18 +26,9 @@ export default function Sticker(properties: Properties_) {
     useEffect(() => {
         const elem = self.current;
         const elem_style = elem.style;
-        const style = getComputedStyle(elem);
         elem_style.left = info.x + "px";
         elem_style.top = info.y + "px";
-        if (hanger.check(pose_id)) {
-            elem_style.opacity = "0";
-            activate();
-        }
-        setTimeout(() => {
-            elem_style.width = style.width;
-            elem_style.height = style.height;
-            elem_style.opacity = "1"
-        }, 100);
+        if (hanger.check(pose_id)) activate();
     })
 
     function detachedTouchStart(event: TouchEvent) {
@@ -65,10 +56,11 @@ export default function Sticker(properties: Properties_) {
         const cls = elem.classList;
         if (cls.contains("alive")) return;
         cls.add("alive");
-        const elem_style = elem.style;
         const style = getComputedStyle(elem);
+        const elem_style = elem.style;
         document.ontouchstart = e => {
             if (e.target == handle) return;
+            elem_style.width = style.width;
             detachedTouchStart(e)
         }
         document.ontouchmove = e => {
