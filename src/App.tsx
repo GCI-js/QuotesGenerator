@@ -7,6 +7,8 @@ import { useState } from "react";
 import styles from "./App.module.scss";
 import MockTogonapshin from "./mock_data/mock_togonapshin.json";
 import StickerModal from "./component/StickerModal";
+import Title from "./component/title";
+import TitleHeader from "./component/TItleHeader";
 
 export default function App(properties: Properties) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
@@ -22,8 +24,8 @@ export default function App(properties: Properties) {
 
   return (
     <div id={id} className={cl}>
+      <TitleHeader />
       <Editor />
-      {/* <StickerModal></StickerModal> */}
       <TemporalBoard randomText={randomText} />
     </div>
   );
