@@ -33,9 +33,13 @@ export default function App(properties: Properties) {
     };
     // console.log("navigator....", navigator.canShare(data));
 
-    if (navigator.canShare(data)) {
-      await navigator.share(data);
-    } else {
+    try {
+      if (navigator.canShare(data)) {
+        await navigator.share(data);
+      } else {
+        alert("해당 브라우저는 공유하기를 지원하지 않습니다.");
+      }
+    } catch (exception) {
       alert("해당 브라우저는 공유하기를 지원하지 않습니다.");
     }
   }
