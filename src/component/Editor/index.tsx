@@ -9,6 +9,7 @@ import tapestry from "../../service/tapestry";
 import Sticker from "../Sticker";
 
 import styles from "./index.module.scss";
+import Watermark from "../Watermark";
 
 export default function Editor(properties: Properties) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();

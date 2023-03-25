@@ -82,27 +82,16 @@ export default function Title(properties: Props) {
   const [titleBackStyle, setTitleBackStyle] = useState<any>();
   const shuffle = async () => {
     let rand = Math.round(Math.random() * 10000000000);
-    console.log(rand);
     let startColor = rand.toString(16).slice(-6);
-    console.log(startColor);
     let endColor = rand.toString(16).slice(-6);
     while (colorDistance(startColor, endColor) < 200) {
       rand = Math.round(Math.random() * 10000000000);
       endColor = rand.toString(16).slice(-6);
     }
-    console.log(endColor);
     let mixedColor = colorMix(startColor, endColor);
-    let textShadow = {
-      x: rand % 8,
-      y: (rand / 8) % 8,
-      blur: (rand / 64) % 8,
-    };
-    console.log(fontOptions[rand % 12]);
     let fontFamily = fontOptions[rand % 12].fontFamily;
     let fontWeight = fontOptions[rand % 12].fontWeight;
     let strokeSize = (rand % 16) + 5;
-    fontWeight == 700 ? 4 : fontWeight == 500 ? 3 : fontWeight == 400 ? 2 : 1;
-    console.log(`rand:${rand}, radn%3==${rand % 3}`);
     let strokeColor =
       rand % 3 == 0 ? "transparent" : rand % 3 == 1 ? "white" : "black";
     if (strokeColor == "transparent") strokeSize = 0;
@@ -123,25 +112,20 @@ export default function Title(properties: Props) {
       ...tmpTitleStyle,
       WebkitTextStroke: `${strokeSize}px ${strokeColor}`,
     };
-    console.log(tmpTitleStyle);
     setTitleStyle(tmpTitleStyle);
     setTitleBackStyle(tmpTitleBackStyle);
   };
   useEffect(() => {
-    console.log("effect");
     shuffle();
   }, []);
   return (
     <div id={id} className={cl}>
-      <div>
-        <div className="titleBack" style={titleBackStyle}>
-          {title}
-        </div>
-        <div className="title" style={titleStyle}>
-          {title}
-        </div>
+      <div className="titleBack" style={titleBackStyle}>
+        {title}
       </div>
-      <button onClick={() => shuffle()} />
+      <div className="title" style={titleStyle}>
+        {title}
+      </div>
     </div>
   );
 }
