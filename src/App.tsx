@@ -5,22 +5,19 @@ import TemporalBoard from "./component/TemporalBoard";
 import { useState } from "react";
 
 import styles from "./App.module.scss";
-import MockTogonapshin from "./mock_data/mock_togonapshin.json";
+import quotes from "./resource/quotes.json";
 import TitleHeader from "./component/TItleHeader";
-import desktop_img from "./desktop_img.svg";
 import share_img from "./share_img.svg";
 
 export default function App(properties: Properties) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
   const cl = [styles.index, properties.className].join(" ");
-  const [togonapshinData, setTogonapshinData] = useState({
-    ...MockTogonapshin[0],
-  });
+  const [quote, setQuote] = useState(quotes[0]);
   var isMobile = /Mobi/i.test(window.navigator.userAgent);
 
   function randomText() {
-    let randomIndex = Math.floor(Math.random() * MockTogonapshin.length);
-    setTogonapshinData(MockTogonapshin[randomIndex]);
+    let randIndex = Math.floor(Math.random() * 100000) % quotes.length;
+    setQuote(quotes[randIndex]);
   }
 
   async function shareClicked() {
@@ -48,7 +45,7 @@ export default function App(properties: Properties) {
           <img src={desktop_img}></img>
         </div>
       )} */}
-      <Editor />
+      <Editor quote={quote} />
       <img
         className="Share"
         src={share_img}

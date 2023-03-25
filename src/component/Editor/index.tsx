@@ -11,11 +11,15 @@ import Sticker from "../Sticker";
 import styles from "./index.module.scss";
 import Watermark from "../Watermark";
 
-export default function Editor(properties: Properties) {
+interface Props extends Properties {
+  quote: any;
+}
+export default function Editor(properties: Props) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
   const cl = [styles.index, properties.className].join(" ");
   const self = useRef<HTMLDivElement>(null);
   const deleter_ref = useRef<HTMLDivElement>(null);
+  const quote = properties.quote;
   shepherd.adopt("editor", id);
 
   function activate() {
