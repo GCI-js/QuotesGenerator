@@ -13,12 +13,13 @@ export default function DownloadModal(properties: Props) {
   const closeModal = () => {
     console.log("clicked closeModal.....");
     properties.setdownloadModalOpen(false);
-    html2canvas(document.getElementById("_2,")).then((canvas) => {
-      onSaveAs(canvas.toDataURL("image/png"), "image_togonapshin.png");
-    });
+    // html2canvas(document.getElementById("_2,")).then((canvas) => {
+    //   onSaveAs(canvas.toDataURL("image/png"), "image_togonapshin.png");
+    // });
   };
   function onSaveAs(uri: string, filename: string) {
     var link = document.createElement("a");
+    console.log("link....." + link);
     document.body.appendChild(link);
     link.href = uri;
     link.download = filename;
