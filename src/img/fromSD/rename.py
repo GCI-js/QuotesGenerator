@@ -14,6 +14,6 @@ def rename_files(source_folder, dest_folder):
 
 if __name__ == "__main__":
     source_folder = "./"
-    dest_folder = "./"
+    dest_folder = "../fromSD_temp/"
 
     rename_files(source_folder, dest_folder)
