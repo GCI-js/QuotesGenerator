@@ -51,7 +51,10 @@ export default function InfoModal(properties: Props) {
         근심해주시고, 걱정해주시고, 사랑해주시고, 은혜를 내려 주세요.
       </div>
       <div className="infoModalSupport">
-        <div>후원계좌 : 카카오뱅크 박진호 7979-77-80219</div>
+        <div>
+          후원계좌: 카카카오뱅크 박진호 <b>7979-77-80219</b>
+        </div>
+        <div>연락: gcijs0615@gmail.com</div>
       </div>
       <button className="modalCheck" onClick={() => closeModal()}>
         확인
