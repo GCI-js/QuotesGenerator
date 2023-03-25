@@ -40,7 +40,7 @@ export default function App(properties: Properties) {
         alert("해당 브라우저는 공유하기를 지원하지 않습니다.");
       }
     } catch (exception) {
-      alert("해당 브라우저는 공유하기를 지원하지 않습니다.");
+      alert("공유 실패");
     }
   }
 
