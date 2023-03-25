@@ -27,11 +27,11 @@ export default function App(properties: Properties) {
     console.log("shareClicked....");
     //navigator.share가 지원되는 경우
     let data = {
-      title: "test",
-      //text: '',
-      url: "www.naver.com",
+      title: "한줄글귀정원",
+      text: "당신의 마음을 따뜻하게 해주는 한마디",
+      url: "한줄글귀정원.com",
     };
-    console.log("navigator....", navigator.canShare(data));
+    // console.log("navigator....", navigator.canShare(data));
 
     if (navigator.canShare(data)) {
       await navigator.share(data);
