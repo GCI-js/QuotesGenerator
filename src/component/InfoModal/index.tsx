@@ -52,7 +52,7 @@ export default function InfoModal(properties: Props) {
       </div>
       <div className="infoModalSupport">
         <div>
-          후원계좌: 카카카오뱅크 박진호 <b>7979-77-80219</b>
+          후원계좌: 카카카오뱅크 박*호 <b>7979-77-80219</b>
         </div>
         <div>연락: gcijs0615@gmail.com</div>
       </div>
