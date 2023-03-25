@@ -93,7 +93,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".DngDz7SZb7JR77R4rJfj {\\n  display: flex;\\n  justify-content: center;\\n  position: absolute;\\n  z-index: 10;\\n  box-sizing: border-box;\\n  border: none;\\n  padding: 2px;\\n  width: 240px;\\n  height: 120px;\\n}\\n.DngDz7SZb7JR77R4rJfj.alive {\\n  padding: 0px;\\n  border: 2px dashed;\\n  animation: rainbow linear 1s infinite;\\n}\\n.DngDz7SZb7JR77R4rJfj.alive > .handle {\\n  display: block;\\n}\\n.DngDz7SZb7JR77R4rJfj > .handle {\\n  width: 40px;\\n  height: 40px;\\n  border: 20px solid;\\n  animation: rainbow linear 1s infinite;\\n  box-sizing: border-box;\\n  border-radius: 50%;\\n  position: absolute;\\n  right: -20px;\\n  bottom: -20px;\\n  display: none;\\n}\\n.DngDz7SZb7JR77R4rJfj > .content {\\n  height: 100%;\\n  width: 100%;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"index\": \"DngDz7SZb7JR77R4rJfj\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://client/./src/component/StaticSticker/index.module.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".DngDz7SZb7JR77R4rJfj {\\n  display: flex;\\n  justify-content: center;\\n  position: absolute;\\n  z-index: 10;\\n  box-sizing: border-box;\\n  border: none;\\n  padding: 2px;\\n  width: 90%;\\n  height: 120px;\\n}\\n.DngDz7SZb7JR77R4rJfj.alive {\\n  padding: 0px;\\n  border: 2px dashed;\\n  animation: rainbow linear 1s infinite;\\n}\\n.DngDz7SZb7JR77R4rJfj.alive > .handle {\\n  display: block;\\n}\\n.DngDz7SZb7JR77R4rJfj > .handle {\\n  width: 40px;\\n  height: 40px;\\n  border: 20px solid;\\n  animation: rainbow linear 1s infinite;\\n  box-sizing: border-box;\\n  border-radius: 50%;\\n  position: absolute;\\n  right: -20px;\\n  bottom: -20px;\\n  display: none;\\n}\\n.DngDz7SZb7JR77R4rJfj > .content {\\n  height: 100%;\\n  width: 100%;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"index\": \"DngDz7SZb7JR77R4rJfj\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://client/./src/component/StaticSticker/index.module.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -137,7 +137,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".V_HlKuVGxsl3rOo4KAyU {\\n  position: absolute;\\n  width: 240px;\\n  display: flex;\\n  justify-content: center;\\n}\\n.V_HlKuVGxsl3rOo4KAyU > .title {\\n  position: absolute;\\n  margin: 0;\\n  width: fit-content;\\n  font-style: normal;\\n  line-height: 80%;\\n  display: flex;\\n  align-items: center;\\n  text-align: center;\\n  -webkit-background-clip: text;\\n  -webkit-text-fill-color: transparent;\\n  background-clip: text;\\n  z-index: 1;\\n}\\n.V_HlKuVGxsl3rOo4KAyU > .titleBack {\\n  color: black;\\n  position: absolute;\\n  margin: 0;\\n  width: fit-content;\\n  font-style: normal;\\n  line-height: 80%;\\n  display: flex;\\n  align-items: center;\\n  text-align: center;\\n  -webkit-background-clip: text;\\n  -webkit-text-fill-color: transparent;\\n  background-clip: text;\\n  z-index: 0;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"index\": \"V_HlKuVGxsl3rOo4KAyU\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://client/./src/component/Title/index.module.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".V_HlKuVGxsl3rOo4KAyU {\\n  position: absolute;\\n  width: 100%;\\n  display: flex;\\n  justify-content: center;\\n}\\n.V_HlKuVGxsl3rOo4KAyU > .title {\\n  position: absolute;\\n  margin: 0;\\n  width: fit-content;\\n  font-style: normal;\\n  line-height: 80%;\\n  display: flex;\\n  align-items: center;\\n  text-align: center;\\n  -webkit-background-clip: text;\\n  -webkit-text-fill-color: transparent;\\n  background-clip: text;\\n  z-index: 1;\\n}\\n.V_HlKuVGxsl3rOo4KAyU > .titleBack {\\n  color: black;\\n  position: absolute;\\n  margin: 0;\\n  width: fit-content;\\n  font-style: normal;\\n  line-height: 80%;\\n  display: flex;\\n  align-items: center;\\n  text-align: center;\\n  -webkit-background-clip: text;\\n  -webkit-text-fill-color: transparent;\\n  background-clip: text;\\n  z-index: 0;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"index\": \"V_HlKuVGxsl3rOo4KAyU\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://client/./src/component/Title/index.module.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -3925,124 +3925,256 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/img/sticker/2023.png":
-/*!**********************************!*\
-  !*** ./src/img/sticker/2023.png ***!
-  \**********************************/
+/***/ "./src/img/sticker/0.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/0.png ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8adc82edf74da2b70a8a1dc8e3bc731b.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/2023.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a81ef41881e279f4cb6984e16198d112.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/0.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/꽃액자.png":
-/*!*********************************!*\
-  !*** ./src/img/sticker/꽃액자.png ***!
-  \*********************************/
+/***/ "./src/img/sticker/1.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/1.png ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"74b909f0c33ec6809679a226811f9b9b.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EA%BD%83%EC%95%A1%EC%9E%90.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"04261bca4b3c427fdc413f54525193a2.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/1.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/노란꽃.png":
-/*!*********************************!*\
-  !*** ./src/img/sticker/노란꽃.png ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a9fad11526f5d4572604fec2f445c0cf.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EB%85%B8%EB%9E%80%EA%BD%83.png?");
-
-/***/ }),
-
-/***/ "./src/img/sticker/리본.png":
+/***/ "./src/img/sticker/10.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/리본.png ***!
+  !*** ./src/img/sticker/10.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8394beceef9381d466077c1f7314ade7.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EB%A6%AC%EB%B3%B8.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"84b833f9d647cbe21a2f79663e73f3a6.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/10.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/보석하트.png":
-/*!**********************************!*\
-  !*** ./src/img/sticker/보석하트.png ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0f2f014c6105e153bae6622876c8ea8d.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EB%B3%B4%EC%84%9D%ED%95%98%ED%8A%B8.png?");
-
-/***/ }),
-
-/***/ "./src/img/sticker/부적.png":
+/***/ "./src/img/sticker/11.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/부적.png ***!
+  !*** ./src/img/sticker/11.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b375df5ab66d21de3ada8d901a1d8680.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EB%B6%80%EC%A0%81.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"94889caadf6059e8abd01ae5bbe3b9de.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/11.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/연꽃.png":
+/***/ "./src/img/sticker/12.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/연꽃.png ***!
+  !*** ./src/img/sticker/12.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0a07b99bda959343e80de92e5e2bc3c1.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EC%97%B0%EA%BD%83.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0163d977dd3c881c2388d75389145e6c.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/12.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/연인.png":
+/***/ "./src/img/sticker/13.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/연인.png ***!
+  !*** ./src/img/sticker/13.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1a076fb2e65f1601a7579980843e6ff4.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EC%97%B0%EC%9D%B8.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c6d7b824f13eacb9f64c6a2df67ead58.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/13.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/장미.png":
+/***/ "./src/img/sticker/14.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/장미.png ***!
+  !*** ./src/img/sticker/14.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4ac626d4024c68096c389c0903ab8225.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%EC%9E%A5%EB%AF%B8.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"5552b79e636ccbd586921bfaede5af49.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/14.png?");
 
 /***/ }),
 
-/***/ "./src/img/sticker/클로버.png":
-/*!*********************************!*\
-  !*** ./src/img/sticker/클로버.png ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c156abc5f4ce522ee35c7d88571b8c26.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%ED%81%B4%EB%A1%9C%EB%B2%84.png?");
-
-/***/ }),
-
-/***/ "./src/img/sticker/하트.png":
+/***/ "./src/img/sticker/15.png":
 /*!********************************!*\
-  !*** ./src/img/sticker/하트.png ***!
+  !*** ./src/img/sticker/15.png ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"842bc5437f2a77cd65f2e68d703c5e5d.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/%ED%95%98%ED%8A%B8.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"5bc0763bc8a09e569a99eae599263ea9.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/15.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/16.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/16.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"23af0462e8883d85eb31b34f90805fd1.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/16.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/17.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/17.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"62360276c18e0ca273f55a91a3ab7b21.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/17.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/18.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/18.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"d56aa604b32e5124614ed494e7894007.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/18.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/19.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/19.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f7192695572ee7ddc01ccddba4e68bb4.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/19.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/2.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/2.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7a375a354d09e1c8b75a975ebc8d4ff3.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/2.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/20.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/20.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b67b6626096e31fb7547151053688734.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/20.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/21.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/21.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4ae330a746eaff4c0a60ac98b0db8d3a.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/21.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/22.png":
+/*!********************************!*\
+  !*** ./src/img/sticker/22.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4f31ba0a334ea096b3c365885d61955f.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/22.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/3.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/3.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2593708dfed18481d25bb0994170714a.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/3.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/4.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/4.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c3b034baf2e94fb001c463062ee2abc5.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/4.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/5.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/5.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8e8dfadcaeeabb782d7a1f2087bce363.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/5.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/6.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/6.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f8561e01b3be1df22a708e900efa5a3e.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/6.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/7.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/7.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"bec6008cee127f3d097150a1cc4ee736.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/7.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/8.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/8.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"82b1b990b8b0cbc108db777805a8db55.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/8.png?");
+
+/***/ }),
+
+/***/ "./src/img/sticker/9.png":
+/*!*******************************!*\
+  !*** ./src/img/sticker/9.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"da9d8bcdef87206f94f4cf057061978c.png\");\n\n//# sourceURL=webpack://client/./src/img/sticker/9.png?");
 
 /***/ }),
 
@@ -4503,7 +4635,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TemporalBoard)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n/* harmony import */ var _service_idiotproof__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../service/idiotproof */ \"./src/service/idiotproof.ts\");\n/* harmony import */ var _service_tapestry__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/tapestry */ \"./src/service/tapestry.ts\");\n/* harmony import */ var _service_hanger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../service/hanger */ \"./src/service/hanger.ts\");\n/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.module.scss */ \"./src/component/TemporalBoard/index.module.scss\");\n/* harmony import */ var _text_img_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./text_img.svg */ \"./src/component/TemporalBoard/text_img.svg\");\n/* harmony import */ var _font_img_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./font_img.svg */ \"./src/component/TemporalBoard/font_img.svg\");\n/* harmony import */ var _background_img_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./background_img.svg */ \"./src/component/TemporalBoard/background_img.svg\");\n/* harmony import */ var _sticker_img_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sticker_img.svg */ \"./src/component/TemporalBoard/sticker_img.svg\");\n/* harmony import */ var _service_calligraphy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../service/calligraphy */ \"./src/service/calligraphy.ts\");\n\n\n\n\n\n\n\n\n\n\nfunction TemporalBoard(properties) {\n    const id = [`_${_service_idiotproof__WEBPACK_IMPORTED_MODULE_1__[\"default\"].trace(TemporalBoard)}`, properties.id].join();\n    const cl = [_index_module_scss__WEBPACK_IMPORTED_MODULE_4__[\"default\"].index, properties.className].join(\" \");\n    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ id: id, className: cl }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomBar\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ id: \"testCapture\", className: \"TextButton\", onClick: () => properties.randomText() }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _text_img_svg__WEBPACK_IMPORTED_MODULE_5__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uBB38\\uAD6C\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"FontButton\" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _font_img_svg__WEBPACK_IMPORTED_MODULE_6__[\"default\"], className: \"ButtonImg\", onClick: _service_calligraphy__WEBPACK_IMPORTED_MODULE_9__[\"default\"].shuffle }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uD3F0\\uD2B8\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"BackgroundButton\", onClick: _service_tapestry__WEBPACK_IMPORTED_MODULE_2__[\"default\"].choose }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _background_img_svg__WEBPACK_IMPORTED_MODULE_7__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uBC30\\uACBD\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"StickerButton\", onClick: () => _service_hanger__WEBPACK_IMPORTED_MODULE_3__[\"default\"].create(\"\") }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _sticker_img_svg__WEBPACK_IMPORTED_MODULE_8__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uC2A4\\uD2F0\\uCEE4\" }))] }))] })) })));\n}\n\n\n//# sourceURL=webpack://client/./src/component/TemporalBoard/index.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TemporalBoard)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n/* harmony import */ var _service_idiotproof__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../service/idiotproof */ \"./src/service/idiotproof.ts\");\n/* harmony import */ var _service_tapestry__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/tapestry */ \"./src/service/tapestry.ts\");\n/* harmony import */ var _service_hanger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../service/hanger */ \"./src/service/hanger.ts\");\n/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.module.scss */ \"./src/component/TemporalBoard/index.module.scss\");\n/* harmony import */ var _text_img_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./text_img.svg */ \"./src/component/TemporalBoard/text_img.svg\");\n/* harmony import */ var _font_img_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./font_img.svg */ \"./src/component/TemporalBoard/font_img.svg\");\n/* harmony import */ var _background_img_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./background_img.svg */ \"./src/component/TemporalBoard/background_img.svg\");\n/* harmony import */ var _sticker_img_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sticker_img.svg */ \"./src/component/TemporalBoard/sticker_img.svg\");\n/* harmony import */ var _service_calligraphy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../service/calligraphy */ \"./src/service/calligraphy.ts\");\n\n\n\n\n\n\n\n\n\n\nfunction TemporalBoard(properties) {\n    const id = [`_${_service_idiotproof__WEBPACK_IMPORTED_MODULE_1__[\"default\"].trace(TemporalBoard)}`, properties.id].join();\n    const cl = [_index_module_scss__WEBPACK_IMPORTED_MODULE_4__[\"default\"].index, properties.className].join(\" \");\n    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ id: id, className: cl }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomBar\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ id: \"testCapture\", className: \"TextButton\", onClick: () => properties.randomText() }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _text_img_svg__WEBPACK_IMPORTED_MODULE_5__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uBB38\\uAD6C\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"FontButton\" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _font_img_svg__WEBPACK_IMPORTED_MODULE_6__[\"default\"], className: \"ButtonImg\", onClick: _service_calligraphy__WEBPACK_IMPORTED_MODULE_9__[\"default\"].shuffle }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uD3F0\\uD2B8\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"BackgroundButton\", onClick: _service_tapestry__WEBPACK_IMPORTED_MODULE_2__[\"default\"].choose }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _background_img_svg__WEBPACK_IMPORTED_MODULE_7__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uBC30\\uACBD\" }))] })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", Object.assign({ className: \"BottomStruct\" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"StickerButton\", onClick: () => _service_hanger__WEBPACK_IMPORTED_MODULE_3__[\"default\"].create() }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"img\", { src: _sticker_img_svg__WEBPACK_IMPORTED_MODULE_8__[\"default\"], className: \"ButtonImg\" }) })), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", Object.assign({ className: \"ButtonText\" }, { children: \"\\uC2A4\\uD2F0\\uCEE4\" }))] }))] })) })));\n}\n\n\n//# sourceURL=webpack://client/./src/component/TemporalBoard/index.tsx?");
 
 /***/ }),
 
@@ -4558,7 +4690,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _shepherd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./shepherd */ \"./src/service/shepherd.ts\");\n\nconst POSES = {};\nlet COUNT = 0;\nlet RECENT_ID = -1;\nconst names = [\n    \"2023\",\n    \"꽃액자\",\n    \"노란꽃\",\n    \"리본\",\n    \"보석하트\",\n    \"부적\",\n    \"연꽃\",\n    \"연인\",\n    \"장미\",\n    \"클로버\",\n    \"하트\",\n];\nvar hanger;\n(function (hanger) {\n    function path(name) {\n        return __webpack_require__(\"./src/img/sticker sync recursive ^\\\\.\\\\/.*\\\\.png$\")(`./${name}.png`).default;\n    }\n    hanger.path = path;\n    function poses() {\n        return Object.entries(POSES);\n    }\n    hanger.poses = poses;\n    function update(id, info) {\n        RECENT_ID = -1;\n        POSES[id] = info;\n    }\n    hanger.update = update;\n    function create(name) {\n        name = names[Math.floor(Math.random() * names.length)];\n        RECENT_ID = COUNT;\n        POSES[COUNT++] = { x: 25 + 100, y: 125 + 100, w: 0, h: 0, n: name };\n        _shepherd__WEBPACK_IMPORTED_MODULE_0__[\"default\"].chase(\"editor\");\n        document.ontouchend = null;\n    }\n    hanger.create = create;\n    function remove(id) {\n        RECENT_ID = -1;\n        document.ontouchend = null;\n        delete POSES[id];\n    }\n    hanger.remove = remove;\n    function check(id) {\n        const rslt = RECENT_ID == parseInt(id);\n        if (rslt)\n            RECENT_ID = -1;\n        return rslt;\n    }\n    hanger.check = check;\n})(hanger || (hanger = {}));\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (hanger);\n\n\n//# sourceURL=webpack://client/./src/service/hanger.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _shepherd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./shepherd */ \"./src/service/shepherd.ts\");\n\nconst POSES = {};\nlet COUNT = 0;\nlet RECENT_ID = -1;\nvar hanger;\n(function (hanger) {\n    function path(i) {\n        return __webpack_require__(\"./src/img/sticker sync recursive ^\\\\.\\\\/.*\\\\.png$\")(`./${i}.png`).default;\n    }\n    hanger.path = path;\n    function poses() {\n        return Object.entries(POSES);\n    }\n    hanger.poses = poses;\n    function update(id, info) {\n        RECENT_ID = -1;\n        POSES[id] = info;\n    }\n    hanger.update = update;\n    function create() {\n        const i = Math.floor(Math.random() * 23) + \"\";\n        RECENT_ID = COUNT;\n        POSES[COUNT++] = { x: 50, y: 100, w: 0, h: 0, n: i };\n        _shepherd__WEBPACK_IMPORTED_MODULE_0__[\"default\"].chase(\"editor\");\n        document.ontouchend = null;\n    }\n    hanger.create = create;\n    function remove(id) {\n        RECENT_ID = -1;\n        document.ontouchend = null;\n        delete POSES[id];\n    }\n    hanger.remove = remove;\n    function check(id) {\n        const rslt = RECENT_ID == parseInt(id);\n        if (rslt)\n            RECENT_ID = -1;\n        return rslt;\n    }\n    hanger.check = check;\n})(hanger || (hanger = {}));\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (hanger);\n\n\n//# sourceURL=webpack://client/./src/service/hanger.ts?");
 
 /***/ }),
 
@@ -4611,7 +4743,7 @@ eval("var map = {\n\t\"./0.jpg\": \"./src/img/fromSD/0.jpg\",\n\t\"./1.jpg\": \"
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./2023.png\": \"./src/img/sticker/2023.png\",\n\t\"./꽃액자.png\": \"./src/img/sticker/꽃액자.png\",\n\t\"./노란꽃.png\": \"./src/img/sticker/노란꽃.png\",\n\t\"./리본.png\": \"./src/img/sticker/리본.png\",\n\t\"./보석하트.png\": \"./src/img/sticker/보석하트.png\",\n\t\"./부적.png\": \"./src/img/sticker/부적.png\",\n\t\"./연꽃.png\": \"./src/img/sticker/연꽃.png\",\n\t\"./연인.png\": \"./src/img/sticker/연인.png\",\n\t\"./장미.png\": \"./src/img/sticker/장미.png\",\n\t\"./클로버.png\": \"./src/img/sticker/클로버.png\",\n\t\"./하트.png\": \"./src/img/sticker/하트.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/img/sticker sync recursive ^\\\\.\\\\/.*\\\\.png$\";\n\n//# sourceURL=webpack://client/./src/img/sticker/_sync_^\\.\\/.*\\.png$?");
+eval("var map = {\n\t\"./0.png\": \"./src/img/sticker/0.png\",\n\t\"./1.png\": \"./src/img/sticker/1.png\",\n\t\"./10.png\": \"./src/img/sticker/10.png\",\n\t\"./11.png\": \"./src/img/sticker/11.png\",\n\t\"./12.png\": \"./src/img/sticker/12.png\",\n\t\"./13.png\": \"./src/img/sticker/13.png\",\n\t\"./14.png\": \"./src/img/sticker/14.png\",\n\t\"./15.png\": \"./src/img/sticker/15.png\",\n\t\"./16.png\": \"./src/img/sticker/16.png\",\n\t\"./17.png\": \"./src/img/sticker/17.png\",\n\t\"./18.png\": \"./src/img/sticker/18.png\",\n\t\"./19.png\": \"./src/img/sticker/19.png\",\n\t\"./2.png\": \"./src/img/sticker/2.png\",\n\t\"./20.png\": \"./src/img/sticker/20.png\",\n\t\"./21.png\": \"./src/img/sticker/21.png\",\n\t\"./22.png\": \"./src/img/sticker/22.png\",\n\t\"./3.png\": \"./src/img/sticker/3.png\",\n\t\"./4.png\": \"./src/img/sticker/4.png\",\n\t\"./5.png\": \"./src/img/sticker/5.png\",\n\t\"./6.png\": \"./src/img/sticker/6.png\",\n\t\"./7.png\": \"./src/img/sticker/7.png\",\n\t\"./8.png\": \"./src/img/sticker/8.png\",\n\t\"./9.png\": \"./src/img/sticker/9.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/img/sticker sync recursive ^\\\\.\\\\/.*\\\\.png$\";\n\n//# sourceURL=webpack://client/./src/img/sticker/_sync_^\\.\\/.*\\.png$?");
 
 /***/ }),
 
