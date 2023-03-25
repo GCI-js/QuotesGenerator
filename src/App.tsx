@@ -28,8 +28,8 @@ export default function App(properties: Properties) {
     //navigator.share가 지원되는 경우
     let data = {
       title: "한줄글귀정원",
-      text: "당신의 마음을 따뜻하게 해주는 한마디",
-      url: "한줄글귀정원.com",
+      // text: "당신의 마음을 따뜻하게 해주는 한마디",
+      url: "https://xn--hh0bte657eefbc8ayz7b.com",
     };
     // console.log("navigator....", navigator.canShare(data));
 
