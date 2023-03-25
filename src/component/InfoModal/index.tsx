@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 import { useEffect, useRef } from "react";
 
 interface Props extends Properties {
-  setModalOpen: Function;
+  setinfoModalOpen: Function;
 }
 
 export default function InfoModal(properties: Props) {
@@ -12,7 +12,7 @@ export default function InfoModal(properties: Props) {
 
   const closeModal = () => {
     console.log("clicked closeModal.....");
-    properties.setModalOpen(false);
+    properties.setinfoModalOpen(false);
   };
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -26,7 +26,7 @@ export default function InfoModal(properties: Props) {
       if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
         console.log("clicked......");
 
-        properties.setModalOpen(false);
+        properties.setinfoModalOpen(false);
       }
     };
 
@@ -51,8 +51,7 @@ export default function InfoModal(properties: Props) {
         근심해주시고, 걱정해주시고, 사랑해주시고, 은혜를 내려 주세요.
       </div>
       <div className="infoModalSupport">
-        <div>후원계좌: </div>
-        <div>카카오뱅크 GCI.js 3333-23-2948376</div>
+        <div>후원계좌 : 카카오뱅크 박진호 7979-77-80219</div>
       </div>
       <button className="modalCheck" onClick={() => closeModal()}>
         확인

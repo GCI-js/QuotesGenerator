@@ -10,11 +10,15 @@ import Watermark from "../Watermark";
 import styles from "./index.module.scss";
 import StaticSticker from "../StaticSticker";
 
-export default function Editor(properties: Properties) {
+interface Props extends Properties {
+  quote: any;
+}
+export default function Editor(properties: Props) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
   const cl = [styles.index, properties.className].join(" ");
   const self = useRef<HTMLDivElement>(null);
   const deleter_ref = useRef<HTMLDivElement>(null);
+  const quote = properties.quote;
   shepherd.adopt("editor", id);
 
   function activate() {
@@ -48,9 +52,9 @@ export default function Editor(properties: Properties) {
   return <div id={id} className={cl} ref={self}>
       <Watermark className="watermark"/>
       <StaticSticker className="title" type="title"
-        content="벚꽃"/>
+        content={quote.title}/>
       <StaticSticker className="context" type="context"
-        content="이젠 좀 길게 보고 움직여야 할 떄가 아닐까요 우리의 인생은 마라톤처럼 길고 긴 여행입니다"/>
+        content={quote.context}/>
       {hanger.poses().map((v) => <Sticker
           key={v[0]}
           pose_id={v[0]}
