@@ -18,7 +18,7 @@ namespace hanger {
     export function create() {
         const i = Math.floor(Math.random() * 23) + ""
         RECENT_ID = COUNT;
-        POSES[COUNT++] = {x: 25 + 100, y: 125 + 100, w: 0, h: 0, n: i};
+        POSES[COUNT++] = {x: 50, y: 100, w: 0, h: 0, n: i};
         shepherd.chase("editor");
         document.ontouchend = null;
     }
