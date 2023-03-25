@@ -4,23 +4,9 @@ const POSES: {[key: string]: StickerInfo} = {};
 let COUNT = 0;
 let RECENT_ID = -1;
 
-const names = [
-    "2023",
-    "꽃액자",
-    "노란꽃",
-    "리본",
-    "보석하트",
-    "부적",
-    "연꽃",
-    "연인",
-    "장미",
-    "클로버",
-    "하트",
-]
-
 namespace hanger {
-    export function path(name: string) {
-        return require(`../img/sticker/${name}.png`).default;
+    export function path(i: string) {
+        return require(`../img/sticker/${i}.png`).default;
     }
     export function poses() {
         return Object.entries(POSES);
@@ -29,12 +15,10 @@ namespace hanger {
         RECENT_ID = -1;
         POSES[id] = info;
     }
-    export function create(name: string) {
-
-        name = names[Math.floor(Math.random() * names.length)];
-
+    export function create() {
+        const i = Math.floor(Math.random() * 23) + ""
         RECENT_ID = COUNT;
-        POSES[COUNT++] = {x: 25 + 100, y: 125 + 100, w: 0, h: 0, n: name};
+        POSES[COUNT++] = {x: 25 + 100, y: 125 + 100, w: 0, h: 0, n: i};
         shepherd.chase("editor");
         document.ontouchend = null;
     }
