@@ -1,36 +1,35 @@
 .index:global {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 10;
-    box-sizing: border-box;
-    border: none;
-    padding: 2px;
-    width: 90%;
-    height: 120px;
-    &.alive {
-        padding: 0px;
-        border: 2px dashed;
-        animation: rainbow linear 1s infinite;
-        > .handle {
-            display: block;
-        }
-    }
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  box-sizing: border-box;
+  border: none;
+  padding: 2px;
+  width: 90%;
+  height: 120px;
+  &.alive {
+    padding: 0px;
+    border: 2px dashed;
+    animation: rainbow linear 1s infinite;
     > .handle {
-        width: 40px;
-        height: 40px;
-        border: 20px solid;
-        animation: rainbow linear 1s infinite;
-        box-sizing: border-box;
-        border-radius: 50%;
-        position: absolute;
-        right: -20px;
-        bottom: -20px;
-        display: none;
+      display: block;
     }
-    > .content {
-        height: 100%;
-        width: 100%;
-    }
+  }
+  > .handle {
+    width: 40px;
+    height: 40px;
+    border: 20px solid;
+    animation: rainbow linear 1s infinite;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    display: none;
+  }
+  > .content {
+    height: 100%;
+    width: 100%;
+  }
 }
-
