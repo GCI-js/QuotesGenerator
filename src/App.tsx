@@ -8,6 +8,9 @@ import styles from "./App.module.scss";
 import quotes from "./resource/quotes.json";
 import TitleHeader from "./component/TItleHeader";
 import share_img from "./share_img.svg";
+import desktop_img from "./desktop_img.svg";
+import BottomInfo from "./component/BottomInfo";
+import DesktopBottomInfo from "./component/DesktopBottomInfo";
 
 export default function App(properties: Properties) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
@@ -37,14 +40,30 @@ export default function App(properties: Properties) {
     }
   }
 
-  return (
+  return !isMobile ? (
     <div id={id} className={cl}>
-      <TitleHeader />
-      {/* {!isMobile && (
-        <div className="forDesktop">
+      <div className="forDesktop">
+        <div className="desktopTitle">
+          <TitleHeader />
+        </div>
+        <div className="desktopImg">
           <img src={desktop_img}></img>
         </div>
-      )} */}
+        <div className="inPhone">
+          <Editor quote={quote} />
+          <img
+            className="desktopShare"
+            src={share_img}
+            onClick={() => shareClicked()}
+          ></img>
+          <TemporalBoard randomText={randomText} />
+          <DesktopBottomInfo />
+        </div>
+      </div>
+    </div>
+  ) : (
+    <div id={id} className={cl}>
+      <TitleHeader />
       <Editor quote={quote} />
       <img
         className="Share"
@@ -52,6 +71,7 @@ export default function App(properties: Properties) {
         onClick={() => shareClicked()}
       ></img>
       <TemporalBoard randomText={randomText} />
+      <BottomInfo />
     </div>
   );
 }
