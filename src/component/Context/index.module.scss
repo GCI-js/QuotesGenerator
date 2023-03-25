@@ -1,0 +1,41 @@
+.index:global {
+  position: absolute;
+  background-color: transparent;
+  width: 240px;
+  > .contextBack {
+    margin: 0;
+    position: absolute;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    z-index: 0;
+  }
+  > .context {
+    position: absolute;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    z-index: 1;
+  }
+  > button {
+    margin-top: 500px;
+    width: 200px;
+    height: 100px;
+  }
+}
