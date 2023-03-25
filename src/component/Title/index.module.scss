@@ -1,0 +1,60 @@
+.index:global {
+  background-color: transparent;
+  width: 240px;
+  > div {
+    > .title {
+      position: absolute;
+      margin: 0;
+      width: fit-content;
+
+      font-style: normal;
+      line-height: 80%;
+      /* identical to box height, or 80% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      z-index: 1;
+      //text-shadow: 4px 4px 8px #000000;
+    }
+    > .titleBack {
+      color: black;
+      position: absolute;
+      margin: 0;
+      width: fit-content;
+
+      font-style: normal;
+      line-height: 80%;
+      /* identical to box height, or 80% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      z-index: 0;
+    }
+  }
+  > .test {
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(
+      red 6deg,
+      orange 6deg 18deg,
+      yellow 18deg 45deg,
+      green 45deg 110deg,
+      blue 110deg 200deg,
+      purple 200deg
+    );
+  }
+  > button {
+    width: 200px;
+    height: 100px;
+  }
+}
