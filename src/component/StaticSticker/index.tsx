@@ -12,10 +12,9 @@ interface Properties_ extends Properties {
     content: string;
 }
 
-
 export default function StaticSticker(properties: Properties_) {
     const id = [`_${idiotproof.trace(StaticSticker)}`, properties.id].join();
-    const cl = [styles.index, properties.className].join(" ");
+    const cl = [styles.index, properties.className, "static-sticker"].join(" ");
     const self = useRef<HTMLDivElement>(null);
     const content = properties.content;
     function activate() {
@@ -31,7 +30,10 @@ export default function StaticSticker(properties: Properties_) {
             elem_style.left = x - parseInt(style.width) / 2 + "px";
             elem_style.top = y - parseInt(style.height) / 2 + "px";
         }
-        document.ontouchend = () => cls.remove("alive");
+        document.ontouchend = () => {
+            cls.remove("alive");
+            document.ontouchmove = document.ontouchend = null;
+        }
     }
     const elem = properties.type == "title" ?
         <Title title={content}/> : <Context context={content}/>

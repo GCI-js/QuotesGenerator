@@ -34,7 +34,8 @@ export default function Sticker(properties: Properties_) {
     function detachedTouchStart(event: TouchEvent) {
         let is_alive = false
         const cl = styles.index
-        const tgt = (event.target as HTMLDivElement).closest(`.${cl}`);
+        const origin = event.target as HTMLDivElement;
+        const tgt = origin.closest(`.${cl}`);
         const elems = document.getElementsByClassName(
             cl) as HTMLCollectionOf<HTMLDivElement>;
         Array.from(elems).forEach(v => {
@@ -46,7 +47,8 @@ export default function Sticker(properties: Properties_) {
             properties.activate();
         })
         if (is_alive) return;
-        document.ontouchstart =
+        document.ontouchstart = null;
+        if (origin.closest(".static-sticker") == null)
             document.ontouchmove = document.ontouchend = null;
     }
 

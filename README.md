@@ -17,3 +17,9 @@ npm install
 # run server (port number: 3000)
 npm run serve
 ```
+
+
+## final issue
+
+1. zindex
+2. title move
