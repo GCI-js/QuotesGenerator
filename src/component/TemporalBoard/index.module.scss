@@ -1,9 +1,54 @@
 .index:global {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    > div {
-        background-color: red;
-        padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+  > .BottomStruct {
+    width: 66px;
+    > .TextButton {
+      height: 66px;
+      border-radius: 100%;
+      background-color: #f6bb41;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+
+    > .FontButton {
+      width: 66px;
+      height: 66px;
+      border-radius: 100%;
+      background-color: #eb6f2e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    > .BackgroundButton {
+      width: 66px;
+      height: 66px;
+      border-radius: 100%;
+      background-color: #ec5040;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    > .StickerButton {
+      width: 66px;
+      height: 66px;
+      border-radius: 100%;
+      background-color: #1f5ad1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    > .ButtonImg {
+      width: 29.09px;
+      height: 29.09px;
+    }
+    > .ButtonText {
+      margin-top: 20px;
+      text-align: center;
+      margin-bottom: 51px;
+    }
+  }
 }
