@@ -68,9 +68,15 @@ export default function TemporalBoard(properties: Props) {
         <img src={info_img} onClick={() => showInfoModal()}></img>
         <img src={download_img} onClick={() => showdownloadModal()}></img>
       </div>
-      {infoModalOpen && <InfoModal setinfoModalOpen={setinfoModalOpen} />}
+      {infoModalOpen && (
+        <div className="ModalBackground">
+          <InfoModal setinfoModalOpen={setinfoModalOpen} />
+        </div>
+      )}
       {downloadModalOpen && (
-        <DownloadModal setdownloadModalOpen={setdownloadModalOpen} />
+        <div className="ModalBackground">
+          <DownloadModal setdownloadModalOpen={setdownloadModalOpen} />
+        </div>
       )}
     </div>
   );

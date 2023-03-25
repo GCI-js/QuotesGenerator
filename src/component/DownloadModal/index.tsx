@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import html2canvas from "html2canvas";
 
 interface Props extends Properties {
-    setdownloadModalOpen: Function;
+  setdownloadModalOpen: Function;
 }
 
 export default function DownloadModal(properties: Props) {
@@ -55,16 +55,32 @@ export default function DownloadModal(properties: Props) {
 
   return (
     <div id={id} className={cl} ref={modalRef}>
-      <div className="infoModalTitle">다운로드</div>
-      <div className="infoModalBody">
-        이미지를 다운로드하시려면 스크린샷을 찍으세요. iOS 측면 버튼/홈버튼과
-        음량 높이기 버튼을 동시에 누릅니다. 두 버튼을 빠르게 놓습니다.
-        스크린샷을 찍으면 화면의 왼쪽 하단 모서리에 축소판 이미지가 일시적으로
-        나타납니다. 축소판 이미지를 탭하여 열거나 왼쪽으로 쓸어넘겨 닫습니다.
-        안드로이드 캡처하려는 화면을 엽니다. 휴대전화에 따라 다음 방법 중 하나를
-        사용하면 됩니다. 전원 및 볼륨 다운 버튼을 동시에 누릅니다. 스크린샷이
-        찍히지 않으면 전원 버튼을 몇 초 동안 길게 누른 다음 스크린샷을 탭합니다.
-        왼쪽 하단에 스크린샷 미리보기가 표시됩니다. 일부 휴대전화에서는 화면
+      <div className="downloadModalTitle">다운로드</div>
+      <div className="downloadModalBody">
+        <div>이미지를 다운로드하시려면 스크린샷을 찍으세요.</div>
+        <br />
+        <div className="bodyBold">iOS</div>
+        1. 측면 버튼/홈버튼과 음량 높이기 버튼을 동시에 누릅니다.
+        <br />
+        2. 두 버튼을 빠르게 놓습니다.
+        <br />
+        3. 스크린샷을 찍으면 화면의 왼쪽 하단 모서리에 축소판 이미지가
+        일시적으로 나타납니다. 축소판 이미지를 탭하여 열거나 왼쪽으로 쓸어넘겨
+        닫습니다.
+        <br />
+        <br />
+        <div className="bodyBold">안드로이드</div>
+        1. 캡처하려는 화면을 엽니다.
+        <br />
+        2. 휴대전화에 따라 다음 방법 중 하나를 사용하면 됩니다.
+        <br />
+        <div className="bodyIndent">
+          · 전원 및 볼륨 다운 버튼을 동시에 누릅니다.
+          <br />· 스크린샷이 찍히지 않으면 전원 버튼을 몇 초 동안 길게 누른 다음
+          스크린샷을 탭합니다.
+        </div>
+        <br />
+        3. 왼쪽 하단에 스크린샷 미리보기가 표시됩니다. 일부 휴대전화에서는 화면
         상단에 스크린샷 캡처 가 표시되기도 합니다.
       </div>
 
