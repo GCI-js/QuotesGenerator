@@ -8,7 +8,31 @@
     right: 25px;
   }
   > .forDesktop {
-    width: 326px;
-    height: 785px;
+    // left: 50% !important;
+    // transform: translate(190%);
+    width: 450px;
+    height: 1083px;
+
+    > .desktopTitle {
+      padding-left: 81.5px;
+    }
+    > .desktopImg {
+      position: absolute;
+      margin: 0 auto;
+      width: 543px;
+    }
+    > .inPhone {
+      position: absolute;
+      margin: 0 auto;
+      padding: 0 66.5px 40px;
+      top: 290px;
+      width: 412px;
+      height: 760px;
+      > .desktopShare {
+        position: absolute;
+        top: 0px;
+        right: 110px;
+      }
+    }
   }
 }
