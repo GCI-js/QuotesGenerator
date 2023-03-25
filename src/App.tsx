@@ -35,6 +35,8 @@ export default function App(properties: Properties) {
 
     if (navigator.canShare(data)) {
       await navigator.share(data);
+    } else {
+      alert("해당 브라우저는 공유하기를 지원하지 않습니다.");
     }
   }
 
