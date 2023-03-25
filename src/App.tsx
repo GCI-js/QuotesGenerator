@@ -29,7 +29,7 @@ export default function App(properties: Properties) {
     let data = {
       title: "한줄글귀정원",
       // text: "당신의 마음을 따뜻하게 해주는 한마디",
-      url: "https://xn--hh0bte657eefbc8ayz7b.com",
+      url: "https://한줄글귀정원.com",
     };
     // console.log("navigator....", navigator.canShare(data));
 
