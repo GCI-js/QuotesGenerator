@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import hanger from "../../service/hanger";
 import idiotproof from "../../service/idiotproof"
 import shepherd from "../../service/shepherd";
@@ -41,6 +41,11 @@ export default function Editor(properties: Properties) {
         else hanger.update(pose_id, pose);
     }
 
+    useEffect(() => {
+        // document.body.style.height = window.innerHeight + "px"
+        // document.body.style.height = "100vh"
+    })
+
     return <div id={id} className={cl} ref={self}>
         <img className="tapestry" src={tapestry.path()} alt="" />
         {hanger.poses().map((v) => <Sticker
@@ -49,6 +54,9 @@ export default function Editor(properties: Properties) {
             info={v[1]}
             activate={activate}
             deactivate={deactivate}/>)}
-        <div className="deleter" ref={deleter_ref}>삭제</div>
+        <div className="deleter" ref={deleter_ref}>
+            <div>🗑</div>
+            <span>쓰레기통</span>
+        </div>
     </div>
 }

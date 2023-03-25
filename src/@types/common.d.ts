@@ -2,6 +2,6 @@ declare interface StickerInfo {
     x: number;
     y: number;
     w: number;
-    d: number;
+    h: number;
     n: string;
 }

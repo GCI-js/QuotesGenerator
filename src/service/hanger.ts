@@ -26,6 +26,7 @@ namespace hanger {
         return Object.entries(POSES);
     }
     export function update(id: string, info: StickerInfo) {
+        RECENT_ID = -1;
         POSES[id] = info;
     }
     export function create(name: string) {
@@ -33,11 +34,12 @@ namespace hanger {
         name = names[Math.floor(Math.random() * names.length)];
 
         RECENT_ID = COUNT;
-        POSES[COUNT++] = {x: 100, y: 100, w: 100, d: 0, n: name};
+        POSES[COUNT++] = {x: 25 + 100, y: 125 + 100, w: 0, h: 0, n: name};
         shepherd.chase("editor");
         document.ontouchend = null;
     }
     export function remove(id: string) {
+        RECENT_ID = -1;
         document.ontouchend = null;
         delete POSES[id];
     }

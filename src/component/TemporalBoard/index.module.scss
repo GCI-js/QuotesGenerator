@@ -2,7 +2,6 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
-
   > .BottomStruct {
     width: 66px;
     > .TextButton {
@@ -48,7 +47,8 @@
     > .ButtonText {
       margin-top: 20px;
       text-align: center;
-      margin-bottom: 51px;
+      margin-bottom: 25px;
+      line-height: 19px;
     }
   }
 }

@@ -1,5 +1,5 @@
 .index:global {
-    margin: 125px 25px 0px 25px;
+    margin: 150px 25px 0px 25px;
     height: calc(100% - 300px);
     overflow: hidden;
     position: relative;
@@ -14,17 +14,34 @@
     }
     > .deleter {
         display: none;
-        height: 165px;
-        top: calc(100% - 165px);
+        background: white;
+        height: 130px;
+        top: calc(100% - 130px);
         left: 0px;
-        background-color: white;
         position: fixed;
         width: 100%;
         align-items: center;
-        justify-content: center;
+        flex-direction: column;
         &.hover {
-            font-size: 30px;
-            color: red;
+            > div {
+                background: red;
+            }
+            > span {
+                color: red;
+            }
+        }
+        > div {
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 66px;
+            height: 66px;
+            border-radius: 33px;
+            background: #1F5AD1;
+        }
+        > span {
+            line-height: 50px;
         }
     }
 }

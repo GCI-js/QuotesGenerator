@@ -1,8 +1,14 @@
 html, body, .app {
+    margin: 0;
     height: 100%;
     overflow:hidden;
 }
 
-body {
-    margin: 0;
+@keyframes rainbow {
+    0% {border-color: pink;}
+    20% {border-color: orange;}
+    40% {border-color: yellow;}
+    60% {border-color: lightgreen;}
+    80% {border-color: lightblue;}
+    100% {border-color: palevioletred;}
 }
