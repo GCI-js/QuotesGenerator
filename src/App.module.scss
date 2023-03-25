@@ -2,6 +2,8 @@
   position: relative;
   height: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
   > .Share {
     position: absolute;
     top: 125px;
@@ -9,7 +11,7 @@
   }
   > .forDesktop {
     // left: 50% !important;
-    transform: translate(190%);
+    // transform: translate(190%);
     width: 450px;
     height: 1083px;
 
