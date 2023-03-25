@@ -1,12 +1,13 @@
 .index:global {
     display: flex;
-    align-items: center;
     justify-content: center;
     position: absolute;
     z-index: 10;
     box-sizing: border-box;
     border: none;
     padding: 2px;
+    width: 240px;
+    height: 120px;
     &.alive {
         padding: 0px;
         border: 2px dashed;

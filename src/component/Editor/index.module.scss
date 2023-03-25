@@ -1,22 +1,19 @@
 .index:global {
-    margin: 150px 25px 0px 25px;
-    height: calc(100% - 300px);
+    margin: 0px 25px 0px 25px;
+    height: calc(100% - 313px);
     overflow: visible;
     position: relative;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 4px 8px black;
     &.touched > .deleter {
         display: flex;
-    }
-    > .tapestry {
-        height: 100%;
-        box-shadow: 0px 4px 8px black;
     }
     > .deleter {
         display: none;
         background: white;
-        height: 130px;
-        top: calc(100% - 130px);
+        height: 170px;
+        top: calc(100% - 170px);
         left: 0px;
         position: fixed;
         width: 100%;
@@ -43,5 +40,18 @@
         > span {
             line-height: 50px;
         }
+    }
+    > .title {
+        top: 35px;
+    }
+    > .context {
+        top: 160px;
+    }
+    > .watermark {
+        left: 5px;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100px;
     }
 }

@@ -1,12 +1,12 @@
 import shepherd from "./shepherd"
 
 let PATH = require(
-    `../img/tapestry/${Math.floor(Math.random() * 7)}.png`).default;
+    `../img/fromSD/${Math.floor(Math.random() * 542)}.jpg`).default;
 
 namespace tapestry {
     export function choose() {
-        const i = Math.floor(Math.random() * 7);
-        PATH = require(`../img/tapestry/${i}.png`).default;
+        const i = Math.floor(Math.random() * 542);
+        PATH = require(`../img/fromSD/${i}.jpg`).default;
         shepherd.chase("editor");
     }
     export function path() {

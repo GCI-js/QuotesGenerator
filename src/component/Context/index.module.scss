@@ -1,5 +1,5 @@
 .index:global {
-  position: absolute;
+  position: fixed;
   background-color: transparent;
   width: 240px;
   > .contextBack {
@@ -32,10 +32,5 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     z-index: 1;
-  }
-  > button {
-    margin-top: 500px;
-    width: 200px;
-    height: 100px;
   }
 }

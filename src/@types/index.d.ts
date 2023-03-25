@@ -8,6 +8,11 @@ declare module "*.png" {
 	export default content;
 }
 
+declare module "*.jpg" {
+	const content: string;
+	export default content;
+}
+
 declare module '*.module.scss' {
     const styles: {[index: string]: string};
     export default styles;

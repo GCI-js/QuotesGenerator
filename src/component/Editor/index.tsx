@@ -1,14 +1,14 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import hanger from "../../service/hanger";
 import idiotproof from "../../service/idiotproof";
 import shepherd from "../../service/shepherd";
 import tapestry from "../../service/tapestry";
 
 import Sticker from "../Sticker";
-import Context from "../Context";
+import Watermark from "../Watermark";
 
 import styles from "./index.module.scss";
-import TitleSticker from "../TitleSticker";
+import StaticSticker from "../StaticSticker";
 
 export default function Editor(properties: Properties) {
   const id = [`_${idiotproof.trace(Editor)}`, properties.id].join();
@@ -40,10 +40,17 @@ export default function Editor(properties: Properties) {
       deleter.classList.remove("hover");
     } else hanger.update(pose_id, pose);
   }
+
+  useEffect(() => {
+    const elem = self.current;
+    elem.style.background = `center / cover no-repeat url("${tapestry.path()}")`
+  });
   return <div id={id} className={cl} ref={self}>
-      <img className="tapestry" src={tapestry.path()} alt="" />
-      <TitleSticker/>
-      <Context context="이젠 좀 길게 보고 움직여야 할 떄가 아닐까요 우리의 인생은 마라톤처럼 길고 긴 여행입니다"/>
+      <Watermark className="watermark"/>
+      <StaticSticker className="title" type="title"
+        content="벚꽃"/>
+      <StaticSticker className="context" type="context"
+        content="이젠 좀 길게 보고 움직여야 할 떄가 아닐까요 우리의 인생은 마라톤처럼 길고 긴 여행입니다"/>
       {hanger.poses().map((v) => <Sticker
           key={v[0]}
           pose_id={v[0]}
